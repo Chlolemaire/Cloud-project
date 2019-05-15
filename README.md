@@ -36,6 +36,7 @@ Packer file: pack.json
 
 For the config:
   
-  In the .bashrc file write : export SCW_TOKEN=<your_token> and export SCALEWAY_ORGANIZATION=<your_organization_id>
+  In the .bashrc file write : export SCW_TOKEN=<your_token> 
+                              export SCALEWAY_ORGANIZATION=<your_organization_id>
   
   Run packer build pack.json
