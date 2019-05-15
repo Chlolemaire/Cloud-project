@@ -7,7 +7,7 @@ _**Installation of Wordpress with ansible**_
 ### **ANSIBLE PART**
 
 
-**Ansible file:** _dev.yml_
+**Ansible file:** _dev.yml_ and the directory _roles_
 
 To execute dev.yml do : 
 ```
