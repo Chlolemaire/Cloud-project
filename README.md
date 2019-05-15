@@ -13,6 +13,10 @@ To execute dev.yml do :
 ```
 ansible-playbook dev.yml -i hosts -u host1.example.org -K
 ```
+In the 
+In the file _main.yml_ at _/project_cloud/roles/mysqldefault_ choose a password for your database after:
+
+``wp_mysql_password:t``` 
 
 ### **TERRAFORM PART**
 
