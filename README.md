@@ -6,7 +6,7 @@ Ansible file: dev.yml
 
 To execute the ansible file dev.yml do :
 
-ansible-playbook dev.yml -i hosts -u host1.example.org-K
+ansible-playbook dev.yml -i hosts -u host1.example.org -K
 
 
 TERRAFORM PART
