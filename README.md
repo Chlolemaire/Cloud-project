@@ -12,8 +12,6 @@ _**Installation of Wordpress with ansible**_
 To execute dev.yml do : 
 ```
 ansible-playbook dev.yml -i hosts -u host1.example.org -K
-
-Coucou 
 ```
 
 ### **TERRAFORM PART**
@@ -42,6 +40,13 @@ then ```terraform destroy -var-file="variables.tfvars"```
 my config:
 
 
-- In the _.bashrc_ file write : ```export SCW_TOKEN=<your_token>``` and ```export SCALEWAY_ORGANIZATION=<your_organization_id>```
+- In the _.bashrc_ file write :
+
+```
+export SCW_TOKEN=<your_token> 
+
+export SCALEWAY_ORGANIZATION=<your_organization_id>
+
+```
 
 - Run ```packer build  pack.json```
