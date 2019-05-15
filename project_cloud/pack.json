@@ -22,4 +22,14 @@
       "ssh_username": "root"
     }
   ]
+   "provisioners": [
+    {
+      "type": "ansible",
+      "playbook_file": "dev.yml"
+    },
+    {
+      "type": "shell",
+      "inline": ["sync"]
+    }
+  ]
 }
