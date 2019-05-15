@@ -1,7 +1,7 @@
 # Cloud-project
 
 
-_**Wordpress project with ansible**_
+_**Installation of Wordpress with ansible**_
 
 
 ### **ANSIBLE PART**
@@ -9,9 +9,11 @@ _**Wordpress project with ansible**_
 
 **Ansible file:** _dev.yml_
 
-The command used to execute dev.yml is : 
+To execute dev.yml do : 
 ```
 ansible-playbook dev.yml -i hosts -u host1.example.org -K
+
+Coucou 
 ```
 
 ### **TERRAFORM PART**
