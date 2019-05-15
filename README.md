@@ -9,7 +9,7 @@ _**Wordpress project with ansible**_
 
 **Ansible file:** _dev.yml_
 
-The command used to execute samba.yml is : 
+The command used to execute dev.yml is : 
 ```
 ansible-playbook dev.yml -i hosts -u host1.example.org -K
 ```
