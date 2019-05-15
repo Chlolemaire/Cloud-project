@@ -11,13 +11,13 @@ ansible-playbook dev.yml -i hosts -u host1.example.org-K
 
 TERRAFORM PART
 
-Terraform file: main.tf variables.tf
+Terraform file: main.tf vars.tf
 
-create variables.tfvars, and put the value of your variables inside:
+Create variables.tfvars, and put the value of your variables inside:
 
-scw_token="x"
+scw_token="X"
 
-organization="x"
+organization="X"
 
 Run
 
@@ -26,6 +26,8 @@ terraform init
 then terraform plan -var-file="variables.tfvars"
 
 then terraform apply -var-file="variables.tfvars"
+
+And terraform destroy -var-file="variables.tfvars"
 
 
 PACKER PART
